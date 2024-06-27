@@ -36,7 +36,7 @@ section#login{
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
@@ -57,33 +57,14 @@ section#login > div#formulario {
     padding: 10px;
 }
 
-/*#formulario > h1 {
+#formulario > h1 {
     text-align: center;
-    padding: 10px;
+    margin-bottom: 10px;
+    
 }
 
 #formulario > p {
-    text-align: justify;
-    padding: 10px;
-}
-
-form > p#entrar{
-    display: block;
-    padding: 10px;
-    background-color: #49a09d;
-    text-align: center;
-    color: white;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-form > p#esquecisenha{
-    display: block;
-    padding: 10px;
-    background-color: white;
-    text-align: center;
-    color: #49a09d;
-    border-radius: 5px;
-    margin: 10px;
+    font-size: 0.8em;
     
-}*/
+}
+

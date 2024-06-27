@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* PARA TABLETS*/
+
 @media screen and (min-width:768px) and (max-width:992px){
 
     body{
@@ -15,14 +17,28 @@
         float: left;
         width: 30%;
         height: 100%;
+        
     }
 
     section#login > div#formulario{
         float: right;
         width: 70%;
     }
+    #formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    #formulario > p {
+        font-size: 1.2em;
+        
+    }
+    
+    
 }
 
+/* PARA TELAS GRANDES E TVS*/
 @media screen and (min-width:992px) {
 
     body{
@@ -35,13 +51,25 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+    #formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    #formulario > p {
+        font-size: 2em;
+        
+    }
+    
+    
 }
